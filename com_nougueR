@@ -26,7 +26,7 @@ TIME_COL  <- "time_to_event_or_end_of_study"        # analysis time variable
 EVENT_COL <- "outcome_af"                           # 1 = event, 0 = censored
 
 # Time horizon T (days) for the point estimate/CI, and confidence level
-t_star <- 180
+t_star <- 180 #change number of days!
 alpha  <- 0.05
 z      <- qnorm(1 - alpha/2)  # 1.96 for 95% two-sided
 
